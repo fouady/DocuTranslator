@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+        android:id="@+id/action_save_image"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_save"
+        android:title="@string/action_save_image" />
+</menu>

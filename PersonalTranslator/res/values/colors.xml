@@ -1,0 +1,6 @@
+<resources>
+    <color name="light_gray">#FFA1A1A1</color>
+    <color name="dark_gray">#FF525252</color>
+    <color name="action_bar_bg">#33b2e1</color>
+    <color name="blue">#0024ff</color>
+</resources>

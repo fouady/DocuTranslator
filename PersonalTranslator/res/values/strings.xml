@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DocuTranslator</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="action_tips">Extraction Tips</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="notif_tap_camera">Tap\nto take\nphoto</string>
+    <string name="title_capture">Take Photo</string>
+    <string name="action_capture">Take Photo</string>
+    <string name="title_extracted_text">Extracted Text</string>
+    <string name="action_run_ocr">Extract Text</string>
+    <string name="action_back">Back</string>
+    <string name="action_go_to_first_screen">Try again</string>
+    <string name="action_run_translator">Translate</string>
+    <string name="notif_no_internet">No internet found. Please check your internet connection.</string>
+    <string name="notif_server_unavailable">Could not connect to server. Please try again later.</string>
+
+    <string-array name="supported_languages_ocr">
+        <item>English</item>
+        <item>Swedish</item>
+        <item>Dutch</item>
+        <item>German</item>
+        <item>French</item>
+        <item>Norwegian</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Finnish</item>
+    </string-array>
+    <string-array name="supported_languages_ocr_codes">
+        <item>eng</item>
+        <item>swe</item>
+        <item>nld</item>
+        <item>deu</item>
+        <item>fra</item>
+        <item>nor</item>
+        <item>rus</item>
+        <item>spa</item>
+        <item>fin</item>
+    </string-array>
+    <string-array name="supported_languages_bing">
+        <item>en</item>
+        <item>sv</item>
+        <item>nl</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>no</item>
+        <item>ru</item>
+        <item>es</item>
+        <item>fi</item>
+    </string-array>
+    <string-array name="supported_countries">
+        <item>United Kingdom</item>
+        <item>Sweden</item>
+        <item>Netherlands</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Norway</item>
+        <item>Russia</item>
+        <item>Spain</item>
+        <item>Finland</item>
+    </string-array>
+
+    <string name="action_ok">OK</string>
+    <string name="title_language_selector">Choose the language of text</string>
+    <string name="title_running_ocr">Extracting text&#8230;</string>
+    <string name="notif_running_ocr">This may take more than 1 minute depending on the amount of text. Time elapsed:</string>
+    <string name="notif_unknown_error">Some unknown error occurred. Please contact the developer if it happens again.</string>
+    <string name="notif_nothing_extracted">No text extracted! Please see text extraction tips in the menu.</string>
+    <string name="action_start_again">Start Again</string>
+    <string name="title_translated_text">Translated Text</string>
+    <string name="notif_extracted_text">&lt;i&gt;Modify any wrongly detected text and tap Translate. See the &lt;b&gt;Extraction Tips&lt;/b&gt; in the menu for improved results.&lt;/i&gt;</string>
+    <string name="title_running_translator">Running translator&#8230;</string>
+    <string name="notif_running_translator">Please wait while the text is being translated. Time elapsed:</string>
+    <string name="notif_string_to">To</string>
+    <string name="notif_translated_text">&lt;i&gt;Translation of the extracted text:&lt;/i&gt;</string>
+    <string name="action_edit_image">Edit Image</string>
+    <string name="title_activity_scanning_tips">Text Extraction Tips</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_step_1">Step 1</string>
+    <string name="title_step_2">Step 2</string>
+    <string name="title_step_3">Step 3</string>
+    <string name="text_tips_1">Sticking to these tips should help you get the best possible text-extraction results out of your image.</string>
+    <string name="text_tips_2">&#8226; Although the quality of the output does not depend on the amount of text extracted, but the text tends to get blurry and the text quality diminishes as the text size is reduced. In order to keep the text size above minimum detection limits, try not to extract the whole page in one go. Rather, crop smaller areas or paragraphs and extract text out of them.</string>
+    <string name="text_tips_3">&#8226; Orientation and skew matters. Try to keep the image in perfectly portrait orientation to get the best results. At the moment the application supports rotating the image by 90 degrees so switching between landscape and portrait modes should not be an issue. Rotating by angles other than multiples of 90 degrees is not supported at the moment but perhaps in some future release. Placing the document on a flat surface should also help eliminate skew.</string>
+    <string name="text_tips_4">&#8226; Moving while taking photos can cause blurry image causing the text to be blurry too. This also affects the text-extraction performance. Features like sharpening the image and changing image contrast/brightness for best extraction results will be added in a future release.</string>
+    <string name="text_tips_5">&#8226; Pictures, shapes and other sources of "noise" shold be cropped out as they might adversely affect the results.</string>
+    <string name="text_tips_6">&#8226; Text within tables and or text placed randomly on the page will be detected fine but the results will not contain the same text alignment as on the image. A better approach is to extract text out of each segment of text individually.</string>
+    <string name="title_activity_about">About</string>
+    <string name="text_about_1">The developer is an expat in Sweden and this app has been made out of necessity since he has a tough time reading documents in Swedish. However, it should not discourage the users from learning a new language.</string>
+	<string name="text_about_2">This product uses Tesseract OCR 3.02 as the OCR engine. Translation is provided by Microsoft Bing translator.</string>
+</resources>

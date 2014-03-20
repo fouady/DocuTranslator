@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Image Editor</string>
+    <color name="gray">#575757</color>
+    <string name="title_edit_image">Edit Image</string>
+    <string name="notif_crop_region_too_small">Cannot crop further</string>
+    <string name="notif_saving">Saving&#8230;</string>
+    <string name="notif_sure_save">Did you forget to crop? If so, press Crop. Otherwise, press Save again.</string>
+    <string name="action_save_image">Save</string>
+
+</resources>
